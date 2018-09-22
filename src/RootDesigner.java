@@ -574,7 +574,7 @@ public class RootDesigner {
             if (newName.equals("")) {
                 nameText.setText("");
             } else {
-                nameText.setText("*from car* Hi! I'm " + motorbike.getOwnersNameAndSurname() + "!");
+                nameText.setText("*from motorbike* Hi! I'm " + motorbike.getOwnersNameAndSurname() + "!");
 
             }
 
@@ -855,7 +855,7 @@ public class RootDesigner {
             if (newName.equals("")) {
                 nameText.setText("");
             } else {
-                nameText.setText("*from car* Hi! I'm " + speedBoat.getOwnersNameAndSurname() + "!");
+                nameText.setText("*from speed boat* Hi! I'm " + speedBoat.getOwnersNameAndSurname() + "!");
 
             }
 
